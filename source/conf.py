@@ -19,8 +19,8 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'PingCAP ZH styleguide'
-copyright = '2020, Charlotte Liu'
-author = 'Charlotte Liu'
+copyright = '2020, yikeke'
+author = 'Keke Yi'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
