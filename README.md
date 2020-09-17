@@ -4,7 +4,7 @@
 
 - Readthedocs 浏览地址：<https://zh-style-guide.readthedocs.io>
 
-- 原 Google doc 链接：[中文技术文档风格指南参考规范（公开版）](https://docs.google.com/document/d/1xHO_l63RvpOdY2jP4XtQaPtbElu2I4tTBHeilMXfJ98/edit?usp=sharing)
+- 原 Google doc 链接：[中文技术文档风格指南参考规范（开源版）](https://docs.google.com/document/d/1xHO_l63RvpOdY2jP4XtQaPtbElu2I4tTBHeilMXfJ98/edit?usp=sharing)
 
 ## License
 
