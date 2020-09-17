@@ -18,9 +18,9 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'PingCAP ZH styleguide'
+project = '中文技术文档写作风格指南'
 copyright = '2020, yikeke'
-author = 'Keke Yi'
+author = 'yikeke'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
@@ -33,6 +33,10 @@ release = '0.1'
 # ones.
 extensions = [
 'recommonmark']
+
+extensions = [
+   'sphinx_markdown_tables',
+]
 
 source_suffix = {
     '.rst': 'restructuredtext',
