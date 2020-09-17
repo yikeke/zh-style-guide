@@ -1,6 +1,7 @@
 # 中文技术文档写作风格指南
 
 Readthedocs 浏览地址：<https://zh-style-guide.readthedocs.io>
+
 原 Google doc 链接：[中文技术文档风格指南参考规范（公开版）](https://docs.google.com/document/d/1xHO_l63RvpOdY2jP4XtQaPtbElu2I4tTBHeilMXfJ98/edit?usp=sharing)
 
 本仓库存储的是中文技术文档的写作风格指南。欢迎任何人进行贡献！
