@@ -10,7 +10,7 @@
    :maxdepth: 2
    :numbered:
    
-   docs/about-this-guide
-   docs/voice-and-tones
+   about-this-guide
+   voice-and-tones
 
    :caption: Contents:
