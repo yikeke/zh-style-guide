@@ -10,7 +10,7 @@
    :maxdepth: 2
    :numbered:
    
-   zh-style-guide/about-this-guide
-   zh-style-guide/voice-and-tones
+   docs/about-this-guide
+   docs/voice-and-tones
 
    :caption: Contents:
