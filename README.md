@@ -1,6 +1,6 @@
 # 中文技术文档写作风格指南
 
-Readthedocs 浏览地址：<https://zh-docs-style-guide.readthedocs.io/en/latest/>
+Readthedocs 浏览地址：<https://zh-style-guide.readthedocs.io/zh_CN/latest/>
 
 本仓库存储着一份编写中文技术文档的开源风格指南。欢迎贡献！
 
