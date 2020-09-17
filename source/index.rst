@@ -10,7 +10,16 @@
    :maxdepth: 2
    :numbered:
    
-   zh-style-guide/about-this-guide
-   zh-style-guide/voice-and-tones
+   中文风格指南/关于本指南
+   中文风格指南/语言风格
 
    :caption: Contents:
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
