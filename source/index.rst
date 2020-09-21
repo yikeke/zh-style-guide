@@ -11,7 +11,7 @@
    :numbered:
    :glob:
    
-   关于本指南/index
+   关于本指南
    语言风格/index
    文档结构样式/index
    文档内容元素/index
