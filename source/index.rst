@@ -8,7 +8,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
    
    关于本指南
