@@ -12,6 +12,8 @@ MIT
 
 ## Reference
 
+- [Readthedocs 项目控制台](https://readthedocs.org/projects/zh-style-guide/builds)
+
 - [Sphinx 入门 — Sphinx 1.8.5 文档](https://sphinx-doc.readthedocs.io/zh_CN/master/usage/quickstart.html#adding-content)
 
 - [readthedocs/recommonmark: A markdown parser for docutils](https://github.com/readthedocs/recommonmark#linking-to-headings-in-other-files)
