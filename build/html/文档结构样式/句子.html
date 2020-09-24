@@ -57,7 +57,7 @@
     <script src="../_static/translations.js"></script>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
-    <link rel="next" title="文档内容元素" href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/index.html" />
+    <link rel="next" title="目录" href="%E7%9B%AE%E5%BD%95.html" />
     <link rel="prev" title="段落" href="%E6%AE%B5%E8%90%BD.html" />
   
    
@@ -306,13 +306,6 @@
     <li class="md-nav__item">
     
     
-      <a href="%E7%9B%AE%E5%BD%95.html" class="md-nav__link">目录</a>
-      
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
       <a href="%E6%AE%B5%E8%90%BD.html" class="md-nav__link">段落</a>
       
     
@@ -333,6 +326,13 @@
 
   </ul>
 </nav>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="%E7%9B%AE%E5%BD%95.html" class="md-nav__link">目录</a>
       
     
     </li></ul>
@@ -381,7 +381,7 @@
     <li class="md-nav__item">
     
     
-      <a href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/%E4%BB%A3%E7%A0%81%E5%9D%97.html" class="md-nav__link">代码块</a>
+      <a href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/%E4%BB%A3%E7%A0%81%E5%9D%97%E5%92%8C%E4%BB%A3%E7%A0%81%E6%B3%A8%E9%87%8A.html" class="md-nav__link">代码块和代码注释</a>
       
     
     </li>
@@ -551,11 +551,13 @@
 <h1 id="wen-dang-jie-gou-yang-shi-ju-zi--page-root">句子<a class="headerlink" href="#wen-dang-jie-gou-yang-shi-ju-zi--page-root" title="永久链接至标题">¶</a></h1>
 <p>句子以句号结尾，句号表示句子意思已完成。句子写作要求如下：</p>
 <ul class="simple">
-<li><p>句子要避免使用长句。一个句子建议不超过 100 字（正文 3 行）。</p></li>
+<li><p>句子要避免使用长句。一个句子建议不超过 100 字。</p></li>
 <li><p>句子要使用简单句和并列句，避免使用复合句。</p></li>
+<li><p>善于断句，避免“一逗到底”的现象。</p></li>
 </ul>
-<p>【错误示例】作为系统间切换的最基本要求，GSM系统要能对UMTS系统的RNC ID进行识别，而UMTS也要能对GSM小区号进行识别，同时GSM和UMTS必须支持相互之间的服务质量参数的转换（即，2G channel type与3G QoS之间的转换），以保证为用户提供可靠的服务质量，同时还需终端的支持，如双模手机。</p>
-<p>【评价】以上句子为多个分句构成的复合句。句与句之间使用了很多修饰用连词， 如“而”、“同时”等。增加了理解整体句群含义的难度。技术文档中不应该出现这样的复合句。</p>
+<p>【错误示例】原因是 DM 需要保存同步的 binlog position 信息，但是 MySQL binlog position 官方定义使用 uint32 存储，所以超过 4G 部分的 binlog position 的 offset 值会溢出，就会存储的是一个错误的 binlog position，在重启 task 或者 dm-worker 后，需要使用该 binlog position 重新解析 binlog/relay log，进而出现上面的错误。</p>
+<p>【分析】以上句子为多个分句构成的复合句。“一逗到底”的情况增加了理解整体句群含义的难度。这种情况下，应该在适当的地方进行断句，并添加“这”、“其”等代词，合理切分句与句之间的逻辑。</p>
+<p>【修改建议】由于 DM 需要保存同步的 binlog position 信息，且 MySQL binlog position 官方定义使用 uint32 存储，因此超过 4G 部分的 binlog position 的 offset 值会溢出。这会导致存储的是一个错误的 binlog position。在重启 task 或者 dm-worker 后，需要使用该 binlog position 重新解析 binlog/relay log，进而出现上面的错误。</p>
 
 
 
@@ -582,12 +584,12 @@
             </a>
           
           
-            <a href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/index.html" title="文档内容元素"
+            <a href="%E7%9B%AE%E5%BD%95.html" title="目录"
                class="md-flex md-footer-nav__link md-footer-nav__link--next"
                rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
                 class="md-flex__ellipsis"> <span
-                class="md-footer-nav__direction"> Next </span> 文档内容元素 </span>
+                class="md-footer-nav__direction"> Next </span> 目录 </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink"><i
                 class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>

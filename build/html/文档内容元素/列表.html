@@ -306,13 +306,6 @@
     <li class="md-nav__item">
     
     
-      <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E7%9B%AE%E5%BD%95.html" class="md-nav__link">目录</a>
-      
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
       <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E6%AE%B5%E8%90%BD.html" class="md-nav__link">段落</a>
       
     
@@ -321,6 +314,13 @@
     
     
       <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E5%8F%A5%E5%AD%90.html" class="md-nav__link">句子</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E7%9B%AE%E5%BD%95.html" class="md-nav__link">目录</a>
       
     
     </li></ul>
@@ -390,7 +390,7 @@
     <li class="md-nav__item">
     
     
-      <a href="%E4%BB%A3%E7%A0%81%E5%9D%97.html" class="md-nav__link">代码块</a>
+      <a href="%E4%BB%A3%E7%A0%81%E5%9D%97%E5%92%8C%E4%BB%A3%E7%A0%81%E6%B3%A8%E9%87%8A.html" class="md-nav__link">代码块和代码注释</a>
       
     
     </li>
@@ -568,17 +568,16 @@
   
 <h1 id="wen-dang-nei-rong-yuan-su-lie-biao--page-root">列表<a class="headerlink" href="#wen-dang-nei-rong-yuan-su-lie-biao--page-root" title="永久链接至标题">¶</a></h1>
 <p>当有 3 项或更多重要信息需要展示时，纵向列表是最清晰且吸引眼球的方式。但如果项目少于 3 项且无需特别强调，将其直接放在句子中通常效果更好。</p>
-<p>也可以创建多级嵌套列表，在某一级别下另起一行，缩进四个空格即可开始更低级别的列表。</p>
+<p>也可以创建多级嵌套列表，在某一级别下另起一行，缩进<strong>四个空格</strong>即可开始更低级别的列表。</p>
 
 <h2 id="id2">无序列表和有序列表<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
-<p>技术文档中的列表分为有序列表 (ordered list) 和无序列表 (unordered list) 两种。一般而言，当列表项之间的顺序不重要时，使用无序列表；当各项之间的顺序很重要时，使用有序列表。</p>
+<p>技术文档中的列表分为有序列表 (ordered list) 和无序列表 (unordered list) 两种。一般而言，<strong>当列表项之间的顺序不重要时，使用无序列表；当各项之间的顺序很重要时，使用有序列表。</strong></p>
 <p>【无序列表示例】</p>
-<p>请带上以下物品参加露营：</p>
+<p>目前，TiDB 数据库使用了以下组件：</p>
 <ul class="simple">
-<li><p>睡袋</p></li>
-<li><p>洗浴套件</p></li>
-<li><p>防晒霜</p></li>
-<li><p>防水夹克</p></li>
+<li><p>Prometheus Server：用于收集和存储时间序列数据。</p></li>
+<li><p>Client 代码库：用于定制程序中需要的 Metric。</p></li>
+<li><p>Alertmanager：用于实现报警机制。</p></li>
 </ul>
 <p>【有序列表示例】</p>
 <p>解决办法：</p>
@@ -593,11 +592,11 @@
 <li><p>需要进行排名的多项内容</p></li>
 <li><p>需要在下文进行引用的规则或其它信息（比如下文需要引用该列表的第 3 项时可以说“规则 3”）</p></li>
 </ul>
-<p>【重要原则】除非顺序很重要，否则不要使用有序列表！</p>
+<p><strong>【重要原则】除非顺序很重要，否则不建议使用有序列表。</strong></p>
 
 
 <h2 id="id3">列表的使用<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
-<p>技术文档中使用列表应遵循以下规范。</p>
+<p>技术文档中使用列表建议遵循以下规范。</p>
 <table border="1">
 <thead>
 <tr>
@@ -609,28 +608,28 @@
 <tbody>
 <tr>
 <td>1. 并列列表项中建议使用相似的句子结构。</td>
-<td>在公园中请遵守以下规则：  <br/>   - 将垃圾投入指定的垃圾桶。 <br/> - 巨大噪音会吓坏动物。 <br/> - 应该站在黄色的标记线区域。 <br/> - 保持公园干净，人人有责。</td>
-<td>在公园中请遵守以下规则：  <br/>   - 将垃圾投入指定的垃圾桶。 <br/> - 不要发出巨大噪音。 <br/> - 站在黄线区域内。 <br/> - 尽量保持公园清洁。</td>
+<td>SQL 查询优化器：  <br/>   - 支持 eager aggregate <br/> - 更详细的 explain 信息 <br/> - union 算子并行化 <br/> - 子查询性能优化 <br/> - 优化 CBO 框架</td>
+<td>SQL 查询优化器：  <br/>   - 支持 eager aggregate <br/> - 支持更详细的 explain 信息 <br/> - 支持 union 算子并行化 <br/> - 优化了子查询性能 <br/> - 优化了 CBO 框架</td>
 </tr>
 <tr>
 <td>2. 每一项的长度要尽量接近。</td>
-<td>请带上以下物品参加露营：  <br/>   - 睡袋 <br/> - 去瀑布徒步旅行时要用到的洗浴套件 <br/> - 防晒霜 <br/> - 防水夹克应对可能的雨天。我们可能会遇到强烈的暴风雨</td>
-<td>请带上以下物品参加露营：  <br/>   - 睡袋 <br/> - 洗浴套件 <br/> - 防晒霜 <br/> - 防水夹克</td>
+<td>在 GitHub 上提交的新 Issue 分为以下几种：  <br/>   - 如果您发现了 bug 需要报告 <br/> - 请求开发一项新功能 <br/> - 常规问题 <br/> - 为解决或提升性能提的 Issue</td>
+<td>在 GitHub 上提交的新 Issue 分为以下几种：  <br/>   - 错误报告 <br/> - 功能请求 <br/> - 常规问题 <br/> - 性能问题</td>
 </tr>
 <tr>
 <td>3. 避免在每一项开头重复相同的词语。</td>
-<td>如何挑选菠萝：   <br/>  - 用闻的。它闻起来要甜。 <br/> - 用按的。它应该按下去结实但柔软。 <br/> - 用看的。它最好是金黄色。</td>
-<td>如何挑选菠萝：  <br/>   - 闻。它闻起来要甜。 <br/> - 按。按下去应该结实但柔软。 <br/> - 看。最好是金黄色。</td>
+<td>TiDB 与 MySQL 安全特性的差异： <br/>  - 不支持外部身份验证方式。 <br/> - 不支持列级别权限设置。 <br/> - 不支持使用证书验证身份。</td>
+<td>相较于 MySQL 安全特性，TiDB 不支持的功能有如下几种：  <br/>   - 外部身份验证方式 <br/> - 列级别权限设置 <br/> - 证书验证身份方式</td>
 </tr>
 <tr>
 <td>4. 使用清晰的、描述性的句子或短语来引出列表。</td>
-<td>不列颠哥伦比亚省的假期：  <br/>   - 徒步旅行 <br/> - 艺术博物馆 <br/> - 在湖上划独木舟</td>
-<td>我们在不列颠哥伦比亚省的假期行程包括：  <br/>   - 上山徒步旅行 <br/> - 参观艺术博物馆 <br/> - 在湖上划独木舟</td>
+<td>状态可以通过 store 的 state_name 来确定：  <br/>   - Up：这个 store 正常服务 <br/> - Disconnected：当前没有检测到这个 store 的心跳，可能是故障或网络连接中断 <br/> - Down：超过一小时没有收到 store 心跳，此时 PD 会为这个 store 上的数据添加副本</td>
+<td>你可以通过 store 的 state_name 确定其状态：  <br/>   - Up：这个 store 正常服务 <br/> - Disconnected：当前没有检测到这个 store 的心跳，可能是故障或网络连接中断 <br/> - Down：超过一小时没有收到 store 心跳，此时 PD 会为这个 store 上的数据添加副本</td>
 </tr>
 <tr>
-<td>5. 并列列表项中保持标点符号一致。     若列表项是句子，那么每一项建议以句号结尾；     若列表项是词组，则不建议以任何标点结尾。</td>
-<td>无</td>
-<td>无</td>
+<td>5. 并列列表项中保持标点符号一致。  <br/> 若列表项是句子，那么每一项建议以句号结尾；  <br/>   若列表项是词组，则不建议以任何标点结尾； <br/> 若列表项既有词组又有句子，则建议统一以句号结尾。</td>
+<td>【例一】TiDB Binlog 支持以下功能场景： <br/>  - 数据同步。 <br/>  实时备份和恢复。 <br/>  【例二】指定数据源的相关信息： <br/> - 在 Name 处，为数据源指定一个名称。<br/> - 在 Type 处，选择 Prometheus。 <br/>  在 URL 处，指定 Prometheus 的 IP 地址。 <br/> 其他字段</td>
+<td>【例一】TiDB Binlog 支持以下功能场景： <br/>  - 数据同步 <br/>  实时备份和恢复 <br/>  【例二】指定数据源的相关信息： <br/> - 在 Name 处，为数据源指定一个名称。<br/> - 在 Type 处，选择 Prometheus。 <br/>  在 URL 处，指定 Prometheus 的 IP 地址。 <br/> 其他字段。</td>
 </tr>
 <tr>
 <td>6. 不要滥用无序列表，否则会导致它们失去应有的效果。</td>

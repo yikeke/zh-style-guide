@@ -58,7 +58,7 @@
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
     <link rel="next" title="引用" href="%E5%BC%95%E7%94%A8.html" />
-    <link rel="prev" title="代码块" href="%E4%BB%A3%E7%A0%81%E5%9D%97.html" />
+    <link rel="prev" title="代码块和代码注释" href="%E4%BB%A3%E7%A0%81%E5%9D%97%E5%92%8C%E4%BB%A3%E7%A0%81%E6%B3%A8%E9%87%8A.html" />
   
    
 
@@ -306,13 +306,6 @@
     <li class="md-nav__item">
     
     
-      <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E7%9B%AE%E5%BD%95.html" class="md-nav__link">目录</a>
-      
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
       <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E6%AE%B5%E8%90%BD.html" class="md-nav__link">段落</a>
       
     
@@ -321,6 +314,13 @@
     
     
       <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E5%8F%A5%E5%AD%90.html" class="md-nav__link">句子</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E7%9B%AE%E5%BD%95.html" class="md-nav__link">目录</a>
       
     
     </li></ul>
@@ -369,7 +369,7 @@
     <li class="md-nav__item">
     
     
-      <a href="%E4%BB%A3%E7%A0%81%E5%9D%97.html" class="md-nav__link">代码块</a>
+      <a href="%E4%BB%A3%E7%A0%81%E5%9D%97%E5%92%8C%E4%BB%A3%E7%A0%81%E6%B3%A8%E9%87%8A.html" class="md-nav__link">代码块和代码注释</a>
       
     
     </li>
@@ -567,23 +567,23 @@
             
   
 <h1 id="wen-dang-nei-rong-yuan-su-lian-jie--page-root">链接<a class="headerlink" href="#wen-dang-nei-rong-yuan-su-lian-jie--page-root" title="永久链接至标题">¶</a></h1>
-<p>技术文档中的链接将用户引导至同一文档中的其他位置、其他相邻文档或外部站点。本节主要介绍了在 Markdown 技术文档中使用链接应遵循的规范。</p>
-<p>【Markdown 链接示例】</p>
+<p>技术文档中的链接将用户引导至同一文档中的其他标题、其他相邻文档或外部站点。本节主要介绍在使用 Markdown 语言编写的技术文档中使用链接建议遵循的规范。</p>
+<p>Markdown 中的链接格式示例：</p>
 <ul class="simple">
-<li><p>链至同一文档中的其他位置：<code class="docutils literal notranslate"><span class="pre">[产品架构](#产品架构)</span></code></p></li>
+<li><p>链至同一文档中的其他标题：<code class="docutils literal notranslate"><span class="pre">[产品架构](#产品架构)</span></code></p></li>
 <li><p>链至其他相邻文档：<code class="docutils literal notranslate"><span class="pre">[产品架构](../docs/architecture.md)</span></code></p></li>
 <li><p>链至外部站点：<code class="docutils literal notranslate"><span class="pre">[贡献者指南](https://docs.microsoft.com/zh-cn/contribute/)</span></code></p></li>
 </ul>
 
 <h2 id="id2">链接的描述<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
-<p>Markdown 链接中方括号 [] 里的内容即为该链接的描述性文本。链接的描述需要符合以下规范。</p>
+<p>Markdown 链接中方括号 [] 里的内容为该链接的描述性文本。链接的描述需要符合以下规范。</p>
 <ul class="simple">
 <li><p>链接描述必须能概括所链文档或页面的大致内容，这有利于搜索引擎优化。例如，链接描述可以是所链页面的标题。</p>
 <ul>
 <li><p>【错误示例】</p>
 <ul>
 <li><p>详情参见 <code class="docutils literal notranslate"><span class="pre">[trouble-shooting.md](trouble-shooting.md)</span></code></p></li>
-<li><p>详情请点击<code class="docutils literal notranslate"><span class="pre">[此处](trouble-shooting.md)</span></code></p></li>
+<li><p>详情请点击<code class="docutils literal notranslate"><span class="pre">[这里](trouble-shooting.md)</span></code></p></li>
 </ul>
 </li>
 <li><p>【正确示例】</p>
@@ -601,15 +601,14 @@
 <h2 id="id3">链接的路径<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
 <p>Markdown 链接中方括号 () 里的内容即为该链接的路径。链接的路径需要符合以下规范。</p>
 <ul class="simple">
-<li><p>如链至其他相邻文档，且链接的文档篇幅较长，建议链接至锚点。</p>
+<li><p>**如链至其他相邻文档，且链接的文档篇幅较长，建议链接至锚点。**链接至锚点即链接至某级标题处。Markdown 支持在链接路径的文件名后加“#标题名称”，即可以链接至该文件的特定标题处。</p>
 <ul>
-<li><p>链接至锚点即链接至某级标题处。Markdown 支持在链接路径的文件名后加“#标题名称”，即可以链接至该文件的该标题处。</p></li>
 <li><p>【示例】<code class="docutils literal notranslate"><span class="pre">[配置文件](trouble-shooting.md#配置文件)</span></code>这个链接将链至 trouble-shooting.md 文件的“配置文件”标题下。</p></li>
 </ul>
 </li>
 <li><p>链接路径应尽量统一风格。例如，链接至非外部站点时应统一使用相对路径或绝对路径，不建议混用相对路径和绝对路径。</p></li>
+<li><p>建议减少将用户链至外部站点的次数，以免外部站点的页面失效而影响用户体验。</p></li>
 </ul>
-<p>建议减少将用户链至外部站点的次数，以免外部站点的页面失效而影响用户体验。</p>
 
 
 
@@ -623,7 +622,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
           
-            <a href="%E4%BB%A3%E7%A0%81%E5%9D%97.html" title="代码块"
+            <a href="%E4%BB%A3%E7%A0%81%E5%9D%97%E5%92%8C%E4%BB%A3%E7%A0%81%E6%B3%A8%E9%87%8A.html" title="代码块和代码注释"
                class="md-flex md-footer-nav__link md-footer-nav__link--prev"
                rel="prev">
               <div class="md-flex__cell md-flex__cell--shrink">
@@ -632,7 +631,7 @@
               <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
                 <span class="md-flex__ellipsis">
                   <span
-                      class="md-footer-nav__direction"> Previous </span> 代码块 </span>
+                      class="md-footer-nav__direction"> Previous </span> 代码块和代码注释 </span>
               </div>
             </a>
           

@@ -306,13 +306,6 @@
     <li class="md-nav__item">
     
     
-      <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E7%9B%AE%E5%BD%95.html" class="md-nav__link">目录</a>
-      
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
       <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E6%AE%B5%E8%90%BD.html" class="md-nav__link">段落</a>
       
     
@@ -321,6 +314,13 @@
     
     
       <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E5%8F%A5%E5%AD%90.html" class="md-nav__link">句子</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E6%A0%B7%E5%BC%8F/%E7%9B%AE%E5%BD%95.html" class="md-nav__link">目录</a>
       
     
     </li></ul>
@@ -369,7 +369,7 @@
     <li class="md-nav__item">
     
     
-      <a href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/%E4%BB%A3%E7%A0%81%E5%9D%97.html" class="md-nav__link">代码块</a>
+      <a href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/%E4%BB%A3%E7%A0%81%E5%9D%97%E5%92%8C%E4%BB%A3%E7%A0%81%E6%B3%A8%E9%87%8A.html" class="md-nav__link">代码块和代码注释</a>
       
     
     </li>
@@ -468,6 +468,8 @@
         <li class="md-nav__item"><a href="#id13" class="md-nav__link">感叹号</a>
         </li>
         <li class="md-nav__item"><a href="#id14" class="md-nav__link">斜杠与反斜杠</a>
+        </li>
+        <li class="md-nav__item"><a href="#id15" class="md-nav__link">反引号</a>
         </li></ul>
             </nav>
         </li>
@@ -592,6 +594,8 @@
         <li class="md-nav__item"><a href="#id13" class="md-nav__link">感叹号</a>
         </li>
         <li class="md-nav__item"><a href="#id14" class="md-nav__link">斜杠与反斜杠</a>
+        </li>
+        <li class="md-nav__item"><a href="#id15" class="md-nav__link">反引号</a>
         </li></ul>
             </nav>
         </li>
@@ -617,31 +621,32 @@
 <p>句号的形式为“。”，常用于陈述句末尾的停顿。</p>
 <p>句号表示一个句子的意思已经完整，技术文档中应善用句号切分语意，帮助用户理清逻辑。</p>
 <ul class="simple">
-<li><p>【错误示例】本系统主要给中小渠道和大CP提供网游定制支付SDK，解决了部分中小渠道有资源进行游戏推广和分发但没有技术条件去开发自己的支付系统，导致收费难等诸多问题，通过使用易接提供的渠道管理系统，可在此后台配置支付参数实现计费能力、子渠道管理、查看收益及用户数据进行用户行为分析等。</p></li>
-<li><p>【正确示例】本系统主要给中小渠道和大 CP 提供网游定制支付 SDK，解决了部分中小渠道有资源进行游戏推广和分发但没有技术条件去开发自己的支付系统、导致收费难等诸多问题。通过使用易接提供的渠道管理系统，可在此后台配置支付参数实现计费能力、子渠道管理、查看收益及用户数据进行用户行为分析等。</p></li>
+<li><p>【错误示例】原因是 DM 需要保存同步的 binlog position 信息，但是 MySQL binlog position 官方定义使用 uint32 存储，所以超过 4G 部分的 binlog position 的 offset 值会溢出，就会存储的是一个错误的 binlog position，在重启 task 或者 dm-worker 后，需要使用该 binlog position 重新解析 binlog/relay log，进而出现上面的错误。</p></li>
+<li><p>【正确示例】由于 DM 需要保存同步的 binlog position 信息，且 MySQL binlog position 官方定义使用 uint32 存储，因此超过 4G 部分的 binlog position 的 offset 值会溢出。这会导致存储的是一个错误的 binlog position。在重启 task 或者 dm-worker 后，需要使用该 binlog position 重新解析 binlog/relay log，进而出现上面的错误。</p></li>
 </ul>
 
 
 <h2 id="id3">逗号<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
 <p>逗号的形式为“，”，表示句子内部的一般性停顿。</p>
-<p>逗号虽然没有特殊、专门的意义，使用也最普遍，但是不能滥用。技术文档中不要出现“一‘逗’到底”的错误，即整个段落除了段落结尾外，全部停顿都使用逗号。</p>
+<p>逗号虽然没有特殊、专门的意义，使用也最普遍，但是不能滥用。<strong>技术文档中不要出现“一‘逗’到底”的错误，即整个段落除了段落结尾外，全部停顿都使用逗号。</strong></p>
 <ul class="simple">
-<li><p>【错误示例】帐务计费中心主要负责话单处理和帐务处理，帐务计费中心同计费网关之间有一个话单接口，用于帐务计费中心取用户话单，话单文件采用 *.TXT 的形式。</p></li>
-<li><p>【正确示例】帐务计费中心主要负责话单处理和帐务处理。帐务计费中心同计费网关之间有一个话单接口，用于帐务计费中心取用户话单。话单文件采用 *.TXT 的形式。</p></li>
+<li><p>【错误示例】首先判断出错发生在 relay log 写入还是 binlog replication/syncer unit 同步（通过日志出错信息中的 component 信息即可判断），如果错误发生在 relay log 模块，binlog replication/syncer unit 保存的断点都是正确的情况，可以先停止任务，停止 DM-worker，手动调节 relay meta 的 binlog-position 到 4，重启 DM-worker 重新拉取 relay log ，relay log 写入正常后启动任务会自动从断点继续同步。</p></li>
+<li><p>【正确示例】首先通过日志出错信息中的 component 信息，判断是在 relay log 写入阶段还是 binlog replication/syncer unit 同步阶段出错。如果错误发生在 relay log 模块，且 binlog replication/syncer unit 保存的断点都正确，则可以先停止任务和 DM-worker，手动调节 relay meta 的 binlog-position 到 4，再重启 DM-worker 重新拉取 relay log。relay log 写入正常后启动任务会自动从断点继续同步。</p></li>
 </ul>
 
 
 <h2 id="id4">顿号<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
-<p>顿号的形式为“、”，表示句子内部并列词语之间的停顿。</p>
+<p>顿号的形式为“、”，表示句子内部并列词语之间的停顿。<strong>中文中表述三者或三者以上的并列情况时，建议用顿号，而不用逗号表示。</strong></p>
 <p>英文中没有顿号，常用逗号来表示并列词语的停顿。因此对于英汉技术翻译者而言，更应该注意顿号的使用场景。</p>
 <ul class="simple">
-<li><p>【错误示例】母板插框，风扇框，交流电源，直流电源等在出厂前已安装完毕。</p></li>
-<li><p>【正确示例】母板插框、风扇框、交流电源、直流电源等在出厂前已安装完毕。</p></li>
+<li><p>【错误示例】此操作会关闭 TiDB，Pump，TiKV，PD 服务，并清空 Pump，TiKV，PD 数据目录。</p></li>
+<li><p>【正确示例】此操作会关闭 TiDB、Pump、TiKV 和 PD 服务，并清空 Pump、TiKV 和 PD 的数据目录。</p></li>
 </ul>
 
 
 <h2 id="id5">分号<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h2>
-<p>分号的形式为“；”，表示复句内部并列分句之间的停顿。分行列举的各项之间，也可以用分号。</p>
+<p>分号的形式为“；”，表示复句内部并列分句之间的停顿。<strong>一般情况下，并列分句有三句或超过三句时，建议使用分号表示停顿。</strong></p>
+<p>【示例】Placement Driver（简称 PD）是整个集群的管理模块，其主要工作有三个：一是存储集群的元信息（某个 Key 存储在哪个 TiKV 节点）；二是对 TiKV 集群进行调度和负载均衡（如数据的迁移、Raft group leader 的迁移等）；三是分配全局唯一且递增的事务 ID。</p>
 <p>分项说明时，如果分成了几大项，大项下面又分几个小项，则可以小项末尾用分号，大项末尾用句号，如例二所示。</p>
 <p>【例一】转换的范围包括：</p>
 <ul class="simple">
@@ -671,17 +676,26 @@
 </ul>
 <p>建议不要连续使用冒号。</p>
 <ul class="simple">
-<li><p>【错误示例】计费策略：表示计费：1，表示不计费：2。</p></li>
+<li><p>【错误示例】计费策略：表示计费：1，不计费：2，计费。</p></li>
 <li><p>【正确示例】计费策略：1 表示计费，2 表示不计费。</p></li>
 </ul>
 
 
 <h2 id="id7">引号<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h2>
-<p>引号分为直角引号和弯引号。直角引号为「」，弯引号有双引号和单引号两种形式。一般而言，技术文档中可以使用直角引号或弯引号，但必须保证所有文档的统一，禁止混用。</p>
-<p>本节只讨论弯引号使用的一些规范，下文中使用的“引号”含义即为“弯引号”含义。</p>
+<p>引号分为直角引号和弯引号。直角引号为「」，弯引号有双引号和单引号两种形式。一般而言，技术文档中可以使用直角引号或弯引号，但<strong>必须保证所有文档的统一，禁止混用</strong>。</p>
+<p>本节只讨论弯引号使用的一些规范，下文中使用的“引号”均表示“弯引号”。</p>
 <ul class="simple">
 <li><p>引号里面还要用引号时，外面一层用双引号，里面一层用单引号。</p></li>
-<li><p>技术文档的正文中若涉及特定参数名称、字段名、界面字段、引用文档的节选等，建议使用引号。</p>
+<li><p>技术文档出现报错信息、特定操作或名称、缩略语提示、特殊名词、引用文档的节选等时，建议使用引号。</p>
+<ul>
+<li><p>【正确示例一】启动集群或者升级集群过程中出现”Timeout when waiting for search string 200 OK”是什么原因？</p></li>
+<li><p>【正确示例二】Sysbench 按照“建表-&gt;插入数据-&gt;创建索引”的顺序导入数据。</p></li>
+<li><p>【正确示例三】如果 <code class="docutils literal notranslate"><span class="pre">tidb-lightning</span></code> 曾经异常退出，集群可能仍留在“导入模式” (import mode)，不适合在生产环境工作。此时需要强制切换回“普通模式” (normal mode)。</p></li>
+<li><p>【正确示例四】作为 NewSQL 数据库，TiDB 兼顾了传统关系型数据库的优秀特性以及 NoSQL 数据库可扩展性，以及跨数据中心（下文简称“中心”）场景下的高可用。</p></li>
+<li><p>【正确示例五】以下操作可能会形成一个“关系环”。</p></li>
+</ul>
+</li>
+<li><p>技术文档的正文中若涉及特定参数名称、字段名、界面字段等，建议使用引号（也可使用反引号）包裹。</p>
 <ul>
 <li><p>【正确示例一】在参数表中规定了 TMN 接口与支持这些接口的物理构件的关系，其中“M”表示必备，“O”表示可选。</p></li>
 <li><p>【正确示例二】具体命令请参见《Quidway S8016 路由交换机安装手册》中“1.2.1 安装步骤”的内容。</p></li>
@@ -692,30 +706,32 @@
 
 
 <h2 id="id8">括号<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h2>
-<p>括号的常用形式包括圆括号“()”、方括号“[ ]”、方头括号“【】”以及装帧中定义的尖括号“&lt;&gt;”（也称单书名号）。其中技术文档中常用的是圆括号、方括号以及尖括号。</p>
-<p>文档中注释性的文字，用括注形式。注释句子里某些词语的，括注紧贴在被注释词语之后；注释整个句子的，括注放在句末标点之后。</p>
-<p>【正确示例一】系统描供 VPN (Virtual Private Network) 功能。</p>
-<p>【正确示例二】写技术说明类文档和文学创作不同，不能摊开稿纸搞“即兴”。（其实文学创作也要有素养才能有“即兴”。）</p>
-<p>在技术文档或产品手册中括号有以下几种特定用法。</p>
+<p>括号的常用形式包括圆括号“()”、方括号“[ ]”、方头括号“【】”、尖括号“&lt;&gt;”（也称单书名号）以及花括号“{}”。其中技术文档中常用的是圆括号、方括号以及尖括号。</p>
+<p>中文文档中一个词语或句子后紧跟的注释性文字，用圆括号进行注解。注释句子里某些词语时，圆括号放在被注释词语之后；注释整个句子时，圆括号放在句末标点之后。</p>
 <ul class="simple">
-<li><p>方括号“[ ]”表示窗口名、菜单名等，如“弹出[新建用户]窗口”、“[文件/新建/文件夹]多级菜单”；</p></li>
+<li><p>【正确示例一】TiDB 使用周期性运行的 GC（Garbage Collection，垃圾回收）来进行清理。</p></li>
+<li><p>【正确示例二】写技术说明类文档和文学创作不同，不能摊开稿纸搞“即兴”。（其实文学创作也要有素养才能有“即兴”。）</p></li>
+</ul>
+<p>一般来说，方括号和尖括号在技术文档或产品手册中有以下几种特定用法。</p>
+<ul class="simple">
+<li><p>方括号“[ ]”表示窗口名、菜单名等，如“弹出[新建用户]窗口”、“[文件/新建/文件夹]多级菜单”。</p></li>
 <li><p>带尖括号“&lt; &gt;”表示按钮名、键名，如“单击&lt;确定&gt;按钮”、“<tab> 表示制表键”。</tab></p></li>
 </ul>
 
 
 <h2 id="id9">书名号<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h2>
 <p>书名号的形式为双书名号“《》”。书名、篇名、报纸名、刊物名等，用书名号标示。英文手册名称用双引号或斜体表示，不用书名号标示。</p>
-<p>【示例】《TELLIN-SMAP 业务管理接入点用户手册》</p>
-<p>书名号中的文档名称必须使用全称，不能使用简称。</p>
+<p>【正确示例】详情见《TiDB-Lightning 表库过滤》。</p>
+<p>书名号中的文档名称建议使用全称，不能使用简称。</p>
 <ul class="simple">
-<li><p>【错误示例】具体操作请参见《S8016 安装手册》</p></li>
-<li><p>【正确示例】具体操作请参见《Quidway S8016 路由交换机安装手册》</p></li>
+<li><p>【错误示例】具体操作请参见《表库过滤》。</p></li>
+<li><p>【正确示例】具体操作请参见《TiDB-Lightning 表库过滤》。</p></li>
 </ul>
 
 
 <h2 id="id10">连接号<a class="headerlink" href="#id10" title="永久链接至标题">¶</a></h2>
 <p>连接号的常见形式为“—”，占一个字的位置。连接号还有另外四种形式，即长横“——”（占两个字的位置）、半字线“–”（占半个字的位置）、短划线“-”（占1/3个字的位置）和浪纹“~”（占一个字的位置）。</p>
-<p>几种连接号的用法及插入方式如下表所示。</p>
+<p>几种连接号的用法及插入方式如下表所示。(注意：Markdown 中可能由于渲染问题无法显示正确长度的横线，建议读者自行打开 Word 体会)</p>
 <table border="1">
 <thead>
 <tr>
@@ -741,7 +757,7 @@
 <tr>
 <td>短划线</td>
 <td>-</td>
-<td>一些外来的词汇中常用短划线：E-Mail、CD-ROM、ITU-T、8-bit、 RJ-45 插头、STM-16     电话号码中的连接符也统一用短划线：025-12345678</td>
+<td>一些外来的词汇中常用短划线：E-Mail、CD-ROM、ITU-T、8-bit、 RJ-45 插头、STM-16  <br/>   电话号码中的连接符也统一用短划线：025-12345678</td>
 <td>Word 里选择[插入/特殊符号]，选择特殊符号中的“不间断连字符”，或者在英文输入法中按减号键输入。</td>
 </tr>
 <tr>
@@ -777,25 +793,21 @@
 <h2 id="id12">省略号<a class="headerlink" href="#id12" title="永久链接至标题">¶</a></h2>
 <p>中文省略号的形式为“……”，有六个小圆点，占两个字的位置。一般而言，中文语句中禁止使用三个小圆点“…”（英文省略号），必须使用六个小圆点“……”。</p>
 <p>省略号主要在以下两种场景中使用。</p>
-<ul class="simple">
-<li><p>引文的省略，用省略号标明。</p>
 <ul>
-<li><p>【示例】中文写作规范中要求：“句号常用于陈述句末尾的停顿。在产品资料中常用于简单句和复合句的结尾，表示句子意思已完整……”</p></li>
-</ul>
+<li><p>引文的省略，用省略号标明。</p>
+<p>【示例】中文写作规范中要求：“句号常用于陈述句末尾的停顿。在产品资料中常用于简单句和复合句的结尾，表示句子意思已完整……”</p>
 </li>
 <li><p>列举的省略，用省略号标明。</p>
-<ul>
-<li><p>【示例】在广州的花市上，牡丹、菊花、杜鹃、梅花、水仙、山茶…… 春秋冬三季的鲜花都挤在一起了。</p></li>
-</ul>
+<p>【示例】分支选择支持所有类型的分区表，无论是 range 分区或是 hash 分区等。对于 hash 分区，如果没有指定分区名，会自动使用 <code class="docutils literal notranslate"><span class="pre">p0</span></code>、<code class="docutils literal notranslate"><span class="pre">p1</span></code>、<code class="docutils literal notranslate"><span class="pre">p2</span></code>、……、或 <code class="docutils literal notranslate"><span class="pre">pN-1</span></code> 作为分区名。</p>
 </li>
 </ul>
 
 
 <h2 id="id13">感叹号<a class="headerlink" href="#id13" title="永久链接至标题">¶</a></h2>
-<p>技术文档中使用感叹号应遵循以下规范。</p>
+<p>技术文档中使用感叹号建议遵循以下规范。</p>
 <ul class="simple">
 <li><p>尽量使用平静的语气叙述，避免使用感叹号。</p></li>
-<li><p>禁止多个感叹号连用，比如“ ！！”和“!!!”。</p></li>
+<li><p>禁止多个感叹号连用，比如“！！”等。</p></li>
 </ul>
 
 
@@ -805,7 +817,12 @@
 <ul class="simple">
 <li><p>表示除法，如 120/60 = 2</p></li>
 <li><p>表示单位（除法的变形），如 60 km/h</p></li>
-<li><p>表示并列，如他/她</p></li>
+<li><p>表示“或”，如他/她。注意：如果需要表示多个并列项，不建议使用“/”连接，建议使用顿号连接。</p>
+<ul>
+<li><p>【错误示例】高可用是 TiDB 的另一大特点，TiDB/TiKV/PD 这三个组件都能容忍部分实例失效，不影响整个集群的可用性。</p></li>
+<li><p>【正确示例】高可用是 TiDB 的另一大特点，TiDB、TiKV 和 PD 这三个组件都能容忍部分实例失效，不影响整个集群的可用性。</p></li>
+</ul>
+</li>
 </ul>
 <p>斜杠的两旁不建议加空格。</p>
 <ul class="simple">
@@ -813,6 +830,36 @@
 <li><p>【正确示例】do/ignore 规则</p></li>
 </ul>
 
+
+<h2 id="id15">反引号<a class="headerlink" href="#id15" title="永久链接至标题">¶</a></h2>
+<p>反引号 (backtick) 的符号是“`”，一般在英文输入法下由键盘左上角 Tab 键上方的按键键入。</p>
+<p>反引号有如下两种用法。</p>
+<table border="1">
+<thead>
+<tr>
+<th>用法种类</th>
+<th>单个反引号包裹单行元素</th>
+<th>三个反引号包裹多行元素</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>作用</td>
+<td>强调包裹的部分，与正文内容区分</td>
+<td>- 便于展示多行代码 <br/> - 强调包裹的部分，与正文内容区分 <br/> - 在 Markdown 语法中，前面的 ``` 后若指明代码块中的语法，可高亮代码块</td>
+</tr>
+<tr>
+<td>示例</td>
+<td><code>`time_zone` 的默认值是 `System`</code></td>
+<td>&lt;三个反引号&gt;  <br/> create table t (ts timestamp, dt datetime); <br/> SELECT * FROM t1; <br/> &lt;三个反引号&gt;</td>
+</tr>
+<tr>
+<td>适用情况</td>
+<td>以下元素需要使用单个反引号包裹： <br/>  - 变量名 <br/> - 变量的值 <br/> - 语法名称 <br/>  - 命令或代码 <br/> - 配置项名 <br/> - 字段名 <br/> - 其他需要强调的名称，如文件名、表名、列名、库名、数据类型名称等</td>
+<td>以下元素需要使用三个反引号包裹： <br/> - 多行代码块（多行 SQL 语句、多行 bash 命令等）  <br/> - 代码执行结果  <br/> - 配置文件中的多行配置</td>
+</tr>
+</tbody>
+</table>
 
 
 

@@ -57,8 +57,8 @@
     <script src="../_static/translations.js"></script>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
-    <link rel="next" title="段落" href="%E6%AE%B5%E8%90%BD.html" />
-    <link rel="prev" title="标题" href="%E6%A0%87%E9%A2%98.html" />
+    <link rel="next" title="文档内容元素" href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/index.html" />
+    <link rel="prev" title="句子" href="%E5%8F%A5%E5%AD%90.html" />
   
    
 
@@ -306,6 +306,20 @@
     <li class="md-nav__item">
     
     
+      <a href="%E6%AE%B5%E8%90%BD.html" class="md-nav__link">段落</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="%E5%8F%A5%E5%AD%90.html" class="md-nav__link">句子</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     <label class="md-nav__link md-nav__link--active" for="__toc"> 目录 </label>
     
@@ -319,20 +333,6 @@
 
   </ul>
 </nav>
-      
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="%E6%AE%B5%E8%90%BD.html" class="md-nav__link">段落</a>
-      
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="%E5%8F%A5%E5%AD%90.html" class="md-nav__link">句子</a>
       
     
     </li></ul>
@@ -381,7 +381,7 @@
     <li class="md-nav__item">
     
     
-      <a href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/%E4%BB%A3%E7%A0%81%E5%9D%97.html" class="md-nav__link">代码块</a>
+      <a href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/%E4%BB%A3%E7%A0%81%E5%9D%97%E5%92%8C%E4%BB%A3%E7%A0%81%E6%B3%A8%E9%87%8A.html" class="md-nav__link">代码块和代码注释</a>
       
     
     </li>
@@ -549,10 +549,11 @@
             
   
 <h1 id="wen-dang-jie-gou-yang-shi-mu-lu--page-root">目录<a class="headerlink" href="#wen-dang-jie-gou-yang-shi-mu-lu--page-root" title="永久链接至标题">¶</a></h1>
-<p>目录通过各级标题自动生成，能帮助用户快速浏览全文结构和定位章节。</p>
+<p>文档目录可以<strong>通过各级标题自动生成</strong>，帮助用户快速浏览全文结构和定位章节。</p>
 <p>对于一本技术手册而言，必须提供总目录（包含所有章节及附录）。如果是安装手册等还需要提供图目录、表目录。</p>
-<p>对于一篇用 Markdown 语言编写的技术文档而言，除 README.md 文件外，一般不需要在文档中任何位置提供目录。禁止在非 README.md 的文档中手动生成目录，所有目录应通过 Markdown 解析工具排版输出。</p>
-<p>【注意】目录是自动生成的，不是人工写的！</p>
+<p>发布在网页端的技术手册，两侧一般都配置有导航栏，包括全手册导航栏及页内导航栏。这两种导航栏的实现就相当于技术手册总目录及单篇文档目录的实现。</p>
+<p>如下是 PingCAP 技术文档站的目录实现：</p>
+<p><img alt="PingCAP 技术文档站的目录导航栏" src="../_images/table-of-contents.jpg"/></p>
 
 
 
@@ -565,7 +566,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
           
-            <a href="%E6%A0%87%E9%A2%98.html" title="标题"
+            <a href="%E5%8F%A5%E5%AD%90.html" title="句子"
                class="md-flex md-footer-nav__link md-footer-nav__link--prev"
                rel="prev">
               <div class="md-flex__cell md-flex__cell--shrink">
@@ -574,17 +575,17 @@
               <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
                 <span class="md-flex__ellipsis">
                   <span
-                      class="md-footer-nav__direction"> Previous </span> 标题 </span>
+                      class="md-footer-nav__direction"> Previous </span> 句子 </span>
               </div>
             </a>
           
           
-            <a href="%E6%AE%B5%E8%90%BD.html" title="段落"
+            <a href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/index.html" title="文档内容元素"
                class="md-flex md-footer-nav__link md-footer-nav__link--next"
                rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
                 class="md-flex__ellipsis"> <span
-                class="md-footer-nav__direction"> Next </span> 段落 </span>
+                class="md-footer-nav__direction"> Next </span> 文档内容元素 </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink"><i
                 class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>

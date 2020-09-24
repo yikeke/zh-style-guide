@@ -57,7 +57,7 @@
     <script src="../_static/translations.js"></script>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
-    <link rel="next" title="目录" href="%E7%9B%AE%E5%BD%95.html" />
+    <link rel="next" title="段落" href="%E6%AE%B5%E8%90%BD.html" />
     <link rel="prev" title="文档结构样式" href="index.html" />
   
    
@@ -329,13 +329,6 @@
     <li class="md-nav__item">
     
     
-      <a href="%E7%9B%AE%E5%BD%95.html" class="md-nav__link">目录</a>
-      
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
       <a href="%E6%AE%B5%E8%90%BD.html" class="md-nav__link">段落</a>
       
     
@@ -344,6 +337,13 @@
     
     
       <a href="%E5%8F%A5%E5%AD%90.html" class="md-nav__link">句子</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="%E7%9B%AE%E5%BD%95.html" class="md-nav__link">目录</a>
       
     
     </li></ul>
@@ -392,7 +392,7 @@
     <li class="md-nav__item">
     
     
-      <a href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/%E4%BB%A3%E7%A0%81%E5%9D%97.html" class="md-nav__link">代码块</a>
+      <a href="../%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9%E5%85%83%E7%B4%A0/%E4%BB%A3%E7%A0%81%E5%9D%97%E5%92%8C%E4%BB%A3%E7%A0%81%E6%B3%A8%E9%87%8A.html" class="md-nav__link">代码块和代码注释</a>
       
     
     </li>
@@ -574,12 +574,12 @@
 <p>标题在技术文档中的地位非常重要，文档工程师要设计合理的标题层级和标题描述，帮助读者理清整篇文档的逻辑，使文章结构一目了然。</p>
 
 <h2 id="id2">标题的层级<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
-<p>技术文档中使用标题最多不超过四级。标题从一级开始递增使用，禁止跳级使用。例如：一级标题下面不能直接使用三级标题；二级标题下面不能直接使用四级标题。</p>
+<p>技术文档中使用标题最多不超过四级。**标题从一级开始递增使用，禁止跳级使用。**例如：一级标题下面不能直接使用三级标题；二级标题下面不能直接使用四级标题。</p>
 <ul class="simple">
-<li><p>一级标题：文章标题</p></li>
+<li><p>一级标题：即文章标题</p></li>
 <li><p>二级标题：文章正文部分的标题</p></li>
 <li><p>三级标题：二级标题下面一级的小标题</p></li>
-<li><p>四级标题：三级标题下面某一方面的小标题</p></li>
+<li><p>四级标题：三级标题下面一级的小标题</p></li>
 </ul>
 <p>下图为在 Markdown 技术文档中使用标题的示例，左侧是编辑文字，右侧是预览效果：</p>
 <p><img alt="标题层级" src="../_images/heading-levels.png"/></p>
@@ -590,7 +590,7 @@
 <h2 id="id3">标题的描述<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
 <p>技术文档中的标题包括但不限于以下几种描述：</p>
 <ul class="simple">
-<li><p>名词词组，如“概述”、“背景”、“原理”</p></li>
+<li><p>名词词组，如“…概述”、“…背景”、“…原理”</p></li>
 <li><p>主题词+动词，如“A 工具安装”、“A 工具部署”、“A 工具配置”</p></li>
 <li><p>动词+主题词，如“配置 MySQL 数据库”</p></li>
 <li><p>定语+主题词，如“A 工具的安装”，“A 工具的架构”</p></li>
@@ -599,9 +599,9 @@
 <p>标题描述的设计并无严格的模板，只要遵循以下几个原则即可：</p>
 <ul class="simple">
 <li><p>标题能够概括反映本章节的中心内容</p></li>
-<li><p>标题应该简洁扼要、涵义明确</p></li>
-<li><p>同级别的标题应尽量使用相同的结构</p></li>
-<li><p>标题描述操作任务时建议使用“动词+主题词”结构，不建议使用名词词组</p></li>
+<li><p>标题简洁扼要、涵义明确</p></li>
+<li><p>同级别的标题尽量使用相同的结构</p></li>
+<li><p>标题描述<strong>操作任务</strong>时建议使用“动词+主题词”结构，不建议使用名词词组</p></li>
 </ul>
 
 
@@ -611,7 +611,7 @@
 <li><p>下级标题禁止重复上一级标题的内容</p></li>
 <li><p>不建议标题以标点符号（如句号或问号）结尾</p></li>
 <li><p>不建议在标题中解释缩略语</p></li>
-<li><p>标题与标题之间应该有引导介绍性的句子。例如，一级标题和二级标题之间应有引言，二级标题和三级标题之间应有正文内容</p></li>
+<li><p>标题与标题之间应该有引导介绍性的句子。例如，一级标题和二级标题之间应有引言内容，二级标题和三级标题之间应有正文内容</p></li>
 <li><p>标题要避免孤立编号（即同级标题只有一个），正文不要有孤立的三级标题和四级标题</p></li>
 <li><p>项目列表是最小编号单位，因此项目列表下禁止嵌套任何级别的标题</p></li>
 </ul>
@@ -642,12 +642,12 @@
             </a>
           
           
-            <a href="%E7%9B%AE%E5%BD%95.html" title="目录"
+            <a href="%E6%AE%B5%E8%90%BD.html" title="段落"
                class="md-flex md-footer-nav__link md-footer-nav__link--next"
                rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
                 class="md-flex__ellipsis"> <span
-                class="md-footer-nav__direction"> Next </span> 目录 </span>
+                class="md-footer-nav__direction"> Next </span> 段落 </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink"><i
                 class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
