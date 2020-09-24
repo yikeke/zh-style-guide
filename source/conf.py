@@ -1,4 +1,4 @@
-import sphinx_rtd_theme
+import sphinx_material
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -35,7 +35,8 @@ extensions = [
     'recommonmark',
     'sphinx_markdown_tables',
     # Auto-generate section labels.
-    'sphinx.ext.autosectionlabel'
+    'sphinx.ext.autosectionlabel',
+    'sphinx_material'
 ]
 
 # Linking to headings in other files (https://github.com/readthedocs/recommonmark#linking-to-headings-in-other-files)
@@ -72,8 +73,38 @@ master_doc = 'index'
 # a list of builtin themes.
 #
 #html_theme = 'alabaster'
-html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+#html_theme = "sphinx_rtd_theme"
+
+html_theme = 'sphinx_material'
+# Set link name generated in the top bar.
+html_title = '中文技术文档写作风格指南'
+
+html_theme_options = {
+    'color_primary': 'light-green',
+    'color_accent': 'orange',
+    'logo_icon': '&#xe150',
+    'master_doc': False,
+
+    # Set you GA account ID to enable tracking
+    # 'google_analytics_account': 'UA-XXXXX',
+
+    # Set the repo location to get a badge with stats
+    'repo_url': 'https://github.com/yikeke/zh-style-guide/',
+    'repo_name': 'zh-style-guide',
+
+    # Visible levels of the global TOC; -1 means unlimited
+    'globaltoc_depth': 2,
+    # If False, expand all TOC entries
+    'globaltoc_collapse': False,
+    # If True, show hidden TOC entries
+    'globaltoc_includehidden': False,
+}
+
+html_theme_path = sphinx_material.html_theme_path()
+html_context = sphinx_material.get_html_context()
+html_sidebars = {
+    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
