@@ -78,11 +78,12 @@ master_doc = 'index'
 html_theme = 'sphinx_material'
 # Set link name generated in the top bar.
 html_title = '中文技术文档写作风格指南'
-base_url = 'https://cocoyi.online/'
+# Specify a base_url used to generate sitemap.xml. If not
+# specified, then no sitemap will be built.
+# base_url = 'https://cocoyi.online/'
 
 html_theme_options = {
-    'base_url': base_url,
-
+    # 'base_url': base_url,
     'color_primary': 'light-green',
     'color_accent': 'orange',
     'logo_icon': '&#xe150',
