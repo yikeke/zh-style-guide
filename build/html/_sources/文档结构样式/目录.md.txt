@@ -8,4 +8,4 @@
 
 如下是 PingCAP 技术文档站的目录实现：
 
-![PingCAP 技术文档站的目录导航栏](../media/table-of-contents.jpg)
+![](../media/table-of-contents.jpg)
