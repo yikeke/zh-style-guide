@@ -78,8 +78,11 @@ master_doc = 'index'
 html_theme = 'sphinx_material'
 # Set link name generated in the top bar.
 html_title = '中文技术文档写作风格指南'
+base_url = 'https://cocoyi.online/'
 
 html_theme_options = {
+    'base_url': base_url,
+
     'color_primary': 'light-green',
     'color_accent': 'orange',
     'logo_icon': '&#xe150',
@@ -98,6 +101,9 @@ html_theme_options = {
     'globaltoc_collapse': False,
     # If True, show hidden TOC entries
     'globaltoc_includehidden': False,
+
+    'heroes': {'index': 'An open-source style guide for writing Chinese technical documents',
+               '文档结构样式/index': 'Structure, Focus, Unity and Flow'},
 }
 
 html_theme_path = sphinx_material.html_theme_path()
