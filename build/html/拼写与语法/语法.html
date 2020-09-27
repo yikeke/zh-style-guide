@@ -503,11 +503,15 @@
         </li>
         <li class="md-nav__item"><a href="#id3" class="md-nav__link">搭配不当</a>
         </li>
-        <li class="md-nav__item"><a href="#id4" class="md-nav__link">用词不当</a>
+        <li class="md-nav__item"><a href="#id4" class="md-nav__link">用词不当</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id5" class="md-nav__link">倍数表达</a>
+        </li></ul>
+            </nav>
         </li>
-        <li class="md-nav__item"><a href="#id5" class="md-nav__link">成分多余</a>
+        <li class="md-nav__item"><a href="#id6" class="md-nav__link">成分多余</a>
         </li>
-        <li class="md-nav__item"><a href="#id6" class="md-nav__link">句式杂糅</a>
+        <li class="md-nav__item"><a href="#id7" class="md-nav__link">句式杂糅</a>
         </li></ul>
             </nav>
         </li>
@@ -562,11 +566,15 @@
         </li>
         <li class="md-nav__item"><a href="#id3" class="md-nav__link">搭配不当</a>
         </li>
-        <li class="md-nav__item"><a href="#id4" class="md-nav__link">用词不当</a>
+        <li class="md-nav__item"><a href="#id4" class="md-nav__link">用词不当</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id5" class="md-nav__link">倍数表达</a>
+        </li></ul>
+            </nav>
         </li>
-        <li class="md-nav__item"><a href="#id5" class="md-nav__link">成分多余</a>
+        <li class="md-nav__item"><a href="#id6" class="md-nav__link">成分多余</a>
         </li>
-        <li class="md-nav__item"><a href="#id6" class="md-nav__link">句式杂糅</a>
+        <li class="md-nav__item"><a href="#id7" class="md-nav__link">句式杂糅</a>
         </li></ul>
             </nav>
         </li>
@@ -603,17 +611,36 @@
 
 
 <h2 id="id4">用词不当<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
-<p>【示例一】表示开始打开记录http请求的日志功能</p>
-<p>【建议】表示开始启用记录 HTTP 请求的日志功能</p>
+
+<h3 id="id5">倍数表达<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
+<p>技术文档中表达倍数建议遵循以下规范。</p>
+<ul class="simple">
+<li><p><strong>数值的增加必须明确使用“增加了”或“增加到”，不能只使用“增加”。“了”表增量，“到”表定量。</strong></p>
+<ul>
+<li><p>【错误示例】增加两倍</p></li>
+<li><p>【正确示例一】增加了两倍──即过去为一，现在为三。</p></li>
+<li><p>【正确示例二】增加到过去的两倍──即过去为一，现在为二。</p></li>
+</ul>
+</li>
+<li><p><strong>数值的减少必须明确使用“降低了”或“降低到”，不能只使用“降低”。“了”表增量，“到”表定量。</strong></p>
+<ul>
+<li><p>【错误示例】降低 80%</p></li>
+<li><p>【正确示例一】降低了 80%──即原来是一百，现在是二十。</p></li>
+<li><p>【正确示例二】降低到 80%──即原来是一百，现在是八十。</p></li>
+</ul>
+</li>
+<li><p><strong>不能用“降低 N 倍”或“减少 N 倍”的表示法，要用“降低百分之几”或“减少百分之几”。</strong></p></li>
+</ul>
 
 
-<h2 id="id5">成分多余<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h2>
+
+<h2 id="id6">成分多余<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h2>
 <p>【示例一】根据官方建议，目前稳定版本的 HAProxy 为稳定版 <a class="reference external" href="https://www.haproxy.com/blog/haproxy-2-0-and-beyond/">2.0 特性</a>。</p>
 <p>【解释】官方目前建议使用 HAProxy 稳定版本 2.0，2.0 特性可以参考此链接。</p>
 <p>【建议】官方目前建议使用 <a class="reference external" href="https://www.haproxy.com/blog/haproxy-2-0-and-beyond/">HAProxy 稳定版本 2.0</a>。</p>
 
 
-<h2 id="id6">句式杂糅<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h2>
+<h2 id="id7">句式杂糅<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h2>
 <p>【示例一】当部署多个 DM-master 节点时，所有 DM-master 节点将使用内部嵌入的 etcd 组成集群并用于存储集群节点信息、任务配置等元数据，同时通过 etcd 选举出 leader 节点用于提供集群管理、数据迁移任务管理相关的各类服务。因此，若 DM-master 可用节点数超过部署节点的半数，即可正常提供服务。</p>
 <p>【解释】适当断句，明确主语，避免句式杂糅。</p>
 <p>【建议】当部署多个 DM-master 节点时，所有 DM-master 节点将使用内部嵌入的 etcd 组成集群。该 DM-master 集群用于存储集群节点信息、任务配置等元数据，同时通过 etcd 选举出 leader 节点。该 leader 节点用于提供集群管理、数据迁移任务管理相关的各类服务。因此，若可用的 DM-master 节点数超过部署节点的半数，即可正常提供服务。</p>
