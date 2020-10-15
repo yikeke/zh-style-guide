@@ -1,6 +1,3 @@
 a.reference.external:after {
-    content: "\ea7d";
-    display: inline-block;
-    width: 14px;
-    height: 12px;
+    content: "\e900";
 }
