@@ -3,7 +3,7 @@ a {
     font-weight: bold;
     color: #000;
 }
-a:after {
+.reference.external:after {
     content: "";
     display: inline-block;
     background: url("/source/_static/icons/external-link.png") no-repeat top right;
