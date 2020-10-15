@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+a:after {
+    content: "";
+    display: inline-block;
+    background: url("/source/_static/icons/external-link-icon.png") no-repeat top right;
+    width: 14px;
+    height: 12px;
+}
