@@ -1,3 +1,1 @@
-a.reference.external:after {
-    content: "\e900";
-}
+a.reference.external:after{font-family:FontAwesome;content:"\f08e";color:#b3b3b3;vertical-align:super;font-size:60%;margin:0 .2em}
