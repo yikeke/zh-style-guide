@@ -6,7 +6,7 @@ a {
 a:after {
     content: "";
     display: inline-block;
-    background: url("/source/_static/icons/external-link-icon.png") no-repeat top right;
+    background: url("/source/_static/icons/external-link.png") no-repeat top right;
     width: 14px;
     height: 12px;
 }
