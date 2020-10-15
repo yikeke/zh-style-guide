@@ -1,7 +1,6 @@
 a.reference.external:after {
-    content: "";
+    content: "\ea7d";
     display: inline-block;
-    background: url("/source/_static/icons/external-link-icon.png") no-repeat top right;
     width: 14px;
     height: 12px;
 }
