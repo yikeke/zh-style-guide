@@ -104,7 +104,7 @@ html_theme_options = {
     'globaltoc_includehidden': False,
 
     'heroes': {'index': 'An open-source style guide for writing Chinese technical documents',
-               '文档结构样式/index': 'Structure, Focus, Unity and Flow'},
+               '文档结构样式/index': 'Structure, Focus, Unity and Flow','语言风格/index': 'Stay Close to Your Users','文档内容元素/index': 'Details Matter','标点符号/index': 'Details Matter'},
 }
 
 html_theme_path = sphinx_material.html_theme_path()
