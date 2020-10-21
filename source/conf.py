@@ -46,8 +46,7 @@ autosectionlabel_prefix_document = True
 
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.txt': 'markdown',
-    '.md': 'markdown',
+    '.md': 'markdown'
 }
 
 # Add any paths that contain templates here, relative to this directory.
