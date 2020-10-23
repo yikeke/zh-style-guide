@@ -9,7 +9,8 @@
 .. toctree::
    :maxdepth: 2
    :glob:
-   
+   :caption: Contents:
+
    关于本指南
    语言风格/index
    文档结构样式/index
@@ -19,5 +20,3 @@
    拼写与语法/index
    附录资料及相关说明
    参考资料
-
-   :caption: Contents:
