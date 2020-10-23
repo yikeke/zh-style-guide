@@ -9,7 +9,7 @@
 .. toctree::
    :maxdepth: 2
    :glob:
-   :caption: Contents:
+   :caption: 目录
 
    关于本指南
    语言风格/index
