@@ -4,6 +4,11 @@
 
 本仓库存储的是《中文技术文档写作风格指南》的源文件。欢迎任何人进行贡献！
 
+## 相关博客文章
+
+- [30 页的开源版中文技术文档写作风格指南，Web 端开放访问！](https://mp.weixin.qq.com/s/5znjT8FKJU08YS5lKFJvDA)
+- [《风格指南》站的实现篇——如何在 30 分钟内制作一个美观的在线文档网站](https://mp.weixin.qq.com/s/7hfOOmhtJURewq8Fz7NhKg)
+
 ## License
 
 MIT
