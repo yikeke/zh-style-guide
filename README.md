@@ -24,6 +24,10 @@
 
 <img src="qrcode.jpg" alt="微信公众号二维码：一只狍子的奇思妙想" height="185" />
 
+## Repo stars
+
+[![Stargazers over time](https://starchart.cc/yikeke/zh-style-guide.svg)](https://starchart.cc/yikeke/zh-style-guide)
+
 ## License
 
 MIT
