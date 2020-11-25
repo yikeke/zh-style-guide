@@ -16,10 +16,10 @@
 
 ## 相关博客文章
 
+<img align="right" src="qrcode.jpg" alt="微信公众号二维码：一只狍子的奇思妙想" height="150" />
+
 - [30 页的开源版中文技术文档写作风格指南，Web 端开放访问！](https://mp.weixin.qq.com/s/5znjT8FKJU08YS5lKFJvDA)
 - [《风格指南》站的实现篇——如何在 30 分钟内制作一个美观的在线文档网站](https://mp.weixin.qq.com/s/7hfOOmhtJURewq8Fz7NhKg)
-
-<img align="right" src="qrcode.jpg" alt="微信公众号二维码：一只狍子的奇思妙想" height="150" />
 
 欢迎扫码关注我的微信公众号『一只狍子的奇思妙想』👉
 
