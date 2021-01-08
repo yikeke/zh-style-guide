@@ -23,7 +23,7 @@ project = '中文技术文档写作风格指南'
 # currentYear = datetime.date.year
 currentYear = datetime.now().year
 author = 'yikeke'
-copyright = currentYear + ', ' + author
+copyright = str(currentYear) + ', ' + author
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
