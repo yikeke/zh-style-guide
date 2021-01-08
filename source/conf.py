@@ -19,7 +19,7 @@ import sphinx_material
 # -- Project information -----------------------------------------------------
 
 project = '中文技术文档写作风格指南'
-copyright = '2020, yikeke'
+copyright = '2021, yikeke'
 author = 'yikeke'
 
 # The full version, including alpha/beta/rc tags
