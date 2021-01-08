@@ -1,4 +1,5 @@
 import sphinx_material
+import datetime from datetime
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -19,8 +20,9 @@ import sphinx_material
 # -- Project information -----------------------------------------------------
 
 project = '中文技术文档写作风格指南'
-copyright = '2021, yikeke'
+currentYear = datetime.now().year
 author = 'yikeke'
+copyright = currentYear + ', ' + author
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
