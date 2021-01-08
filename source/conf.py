@@ -20,10 +20,9 @@ from datetime import datetime
 # -- Project information -----------------------------------------------------
 
 project = '中文技术文档写作风格指南'
-# currentYear = datetime.date.year
 currentYear = datetime.now().year
 author = 'yikeke'
-copyright = str(currentYear) + ', ' + author
+copyright = '2020-' + str(currentYear) + ', ' + author
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
