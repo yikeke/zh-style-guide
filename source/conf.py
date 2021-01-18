@@ -92,7 +92,7 @@ html_theme_options = {
     'master_doc': False,
 
     # Set you GA account ID to enable tracking
-    # 'google_analytics_account': 'UA-XXXXX',
+    'google_analytics_account': '142118122',
 
     # Set the repo location to get a badge with stats
     'repo_url': 'https://github.com/yikeke/zh-style-guide/',
