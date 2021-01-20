@@ -14,6 +14,14 @@
 
 如需贡献，**请直接修改 /source 文件夹下的相应文件。**
 
+## 为自己的公司创建一份风格指南
+
+你可以点击右上角的 Fork 按钮，将该风格指南克隆到自己的仓库下，接着就可以按需自行修改了。
+
+如果你成功在公司内部推广了这份风格指南，鼓励你在 [zh-style-guide 的使用者列表（完善中）](https://github.com/yikeke/zh-style-guide/discussions/26) 讨论区留下你的足迹。
+
+每位 zh-style-guide 项目的实际使用者，都是社区的宝贵财富。每次与他人的连接，都会产生意想不到的价值！
+
 ## 相关博客文章
 
 <img align="right" src="qrcode.jpg" alt="微信公众号二维码：阿狍杂谈" height="150" />
