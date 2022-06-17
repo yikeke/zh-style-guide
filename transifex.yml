@@ -1,0 +1,8 @@
+git:
+  filters:
+  - filter_type: dir
+    file_format: MARKDOWN
+    source_file_extension: md
+    source_language: zh_CN
+    source_file_dir: source
+    translation_files_expression: 'Translations/<lang>'
