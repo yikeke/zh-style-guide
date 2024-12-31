@@ -20,6 +20,44 @@
 
 如需贡献，**请直接修改 /source 文件夹下的相应文件。**
 
+### 具体步骤
+
+1. Fork 本仓库到你的 GitHub 账号
+2. 克隆你 fork 的仓库到本地：
+    ```bash
+    git clone https://github.com/你的用户名/zh-style-guide.git
+    cd zh-style-guide
+    ```
+3. 在本地部署测试环境：
+    - 确保已安装 Python 3.12 或更高版本
+    - 确保已安装 pip 包管理器
+    - 创建并激活虚拟环境：
+        ```bash
+        python3 -m venv venv
+        # Windows 系统使用：
+        # venv\Scripts\activate
+        # Unix/MacOS 系统使用：
+        source venv/bin/activate
+        ```
+    - 安装项目依赖：
+        ```bash
+        pip install -r requirements.txt
+        ```
+    - 启动本地预览服务：
+        ```bash
+        sphinx-autobuild source build/html
+        ```
+    - 在浏览器中访问 http://127.0.0.1:8000 查看文档
+    - 修改源文件后，网页会自动刷新重建
+4. 修改 /source 文件夹下的相关文件
+5. 提交变更：
+    ```bash
+    git add .
+    git commit -m "描述你的修改"
+    git push origin main
+    ```
+6. 在 GitHub 上创建 Pull Request
+
 ## 为自己的公司创建一份风格指南
 
 你可以点击右上角的 Fork 按钮，将该风格指南克隆到自己的仓库下，接着就可以按需自行修改了。
