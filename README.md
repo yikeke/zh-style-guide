@@ -1,3 +1,9 @@
+# Call for a Maintainer! 招募一名仓库维护者~
+
+由于我的目前精力变更，需要一名 active maintainer 帮助我维护仓库日常更新。维护者将会拥有直接合并 Pull Request 的权限。
+
+如果有小伙伴感兴趣，请给 yicoco17@gmail.com 发邮件，有强烈热情和意愿的小伙伴优先，感谢！
+
 # 中文技术文档写作风格指南
 
 网页浏览地址：<https://zh-style-guide.readthedocs.io>

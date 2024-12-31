@@ -21,3 +21,5 @@ Thumbs.db
 source/关于本指南/.DS_Store
 source/.DS_Store
 source/语言风格/.DS_Store
+
+.idea/
