@@ -1,0 +1,10 @@
+## 文档质量检查工具
+
+一名成熟的文档工作者应该配置自己的文档编辑器，保证其能对文档自动进行拼写和语法检查。推荐以下几种对文档自动进行质量检查的工具。
+
+- [Grammarly](https://www.grammarly.com/grammar-check)
+- Visual Studio Code 插件
+    - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+    - [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [LanguageTool](https://languagetool.org/)
+- [Vale](https://github.com/errata-ai/vale)

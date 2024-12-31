@@ -1,0 +1,2 @@
+[sphinx.html_themes]
+sphinx_material = sphinx_material
