@@ -41,7 +41,7 @@
         ```
     - 安装项目依赖：
         ```bash
-        pip install -r requirements.txt
+        pip install -r source/requirements.txt
         ```
     - 启动本地预览服务：
         ```bash
