@@ -74,15 +74,12 @@
 
 中英文混用时使用括号 **建议** 遵循以下规范。
 
--  **括号里全为英文时** 建议使用半角括号，并在括号前后各空一个半角空格，括号和括号内的英文之间不需要空格。
-    - 【错误示例一】数据定义语言（DDL）是一种……（使用了全角括号）
-    - 【错误示例二】数据定义语言(DDL)是一种……（半角括号前后未空格）
-    - 【错误示例三】数据定义语言 ( DDL ) 是一种……（半角括号和半角括号内的英文之间空了一格）
-    - 【正确示例】数据定义语言 (DDL) 是一种……
+-  **中文句子中夹用英文句子或英文语段时**，如果括号内容处于该英文句子或英文语段内部，使用英文半角括号。
+    - 【示例】他说：“Put coins or bills into the slots (the small slot for coins and the bigger one for bills) in the machine for the sort of stamps you need.”
 
--  **括号里既有中文又有英文（即只要括号内包含任何中文）时** 建议使用全角括号，括号前后不空格。
-    - 【错误示例】斜杠 (slash 或 forward slash) 和反斜杠 (backslash) 是两种符号。
-    - 【正确示例】斜杠（slash 或 forward slash）和反斜杠 (backslash) 是两种符号。
+-  **中文句子中夹用英文词语时**，如果括号标示的注释、补充或说明并非处于完整英文句子或英文语段内部，使用中文全角括号。
+    - 【示例一】如果有银行卡，你就可以通过 ATM（Automatic Teller Machine）存取款。
+    - 【示例二】The Beatles（1968）有一首歌，题为《除了我和我的猴子人人都想藏藏一点东西》（Everybody's Got Something to Hide except Me and My Monkey）。
 
 英文书籍、报刊、标题的引用方法
 ~~~~~~~~~~~~~~~~~~~~

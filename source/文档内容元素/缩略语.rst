@@ -13,7 +13,7 @@
 英语缩略语
 --------------------
 
-英语缩略语数量巨大、种类繁多，出现在中文技术文档中的主要有三种：首字母缩略词 (acronym)、字母词 (initialism) 和缩写词 (shortened word) 。三者的区别是：
+英语缩略语数量巨大、种类繁多，出现在中文技术文档中的主要有三种：首字母缩略词（acronym）、字母词（initialism）和缩写词（shortened word）。三者的区别是：
 
 - 首字母缩略词：由每个词的首字母组成，以词的形式发音。
     - 【示例】NATO 代表 North Atlantic Treaty Organization
